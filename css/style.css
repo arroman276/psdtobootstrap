@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Header Section Starts Here */
+
+
+
+/*  Header Section Ends Here  */
+
+
+/*   Banner Section Starts Here  */
+
+.banner-image{
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*width: 100%;*/
+    /*height: 500px;*/
+}
+
+.cls-sec-banner h1{
+    color: white;
+    font-size: 120px;
+    margin-top: 215px;
+    text-transform: uppercase;
+}
+
+.cls-sec-banner .cls-banner-line{
+    border-bottom: 3px solid #15a4fa;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cls-sec-banner p{
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-botom: 35px;
+}
+
+.cls-sec-banner .banner-button{
+    color: white!important;
+    padding: 10px 20px;
+    background: transparent;
+    margin-bottom: 150px;
+}
+
+.cls-sec-banner .banner-icon{
+    color: white;
+    margin-bottom: 90px;
+}
+
+
+/*   Banner Section Ends Here  */
+
+
+
+/*   Work Section Starts Here  */
+
+.cls-sec-works h2{
+    font-size: 40px;
+    color: #2d3950;
+}
+
+
+.cls-sec-works p{
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+
+/*   Work Section Ends Here   */
+
+
+/*  Features Section Starts Here  */
+
+.cls-sec-features{
+
+}
+
+.cls-sec-features .icon-box{
+    width: 85px;
+    height: 75px;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 77%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 77%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin: 0 auto;
+}
+                                
+.fa.fa-mobile{
+    font-size: 45px;
+    padding: 13px;
+    color: white;
+}
+
+.fa.fa-paper-plane-o{
+    font-size: 30px;
+    padding: 23px;
+    color: white;
+}
+
+.fa.fa-bullhorn{
+    font-size: 30px;
+    padding: 23px;
+    color: white;
+}
+
+.card-title-styles{
+    font-size: 20px;
+    color: #2d3950;
+}
+
+.card-text-styles{
+    font-size: 15px;
+    color: #999999;
+}
+/*.cards{
+
+}
+
+.card-body{
+
+}
+
+.card-title{
+    font-size: 22px;
+    color: #2d3950;
+}
+
+.card-text{
+    font-size: 15px;
+    color: #999999;
+}
+
+
+.fa.fa-mobile{
+    font-size: 50px;
+    color: blue;
+}
+
+.fa.fa-paper-plane-o{
+    font-size: 50px;
+    color: blue;
+}
+
+.fa.fa-bullhorn{
+    font-size: 50px;
+    color: blue;
+}
+*/
+/*  Features Section Ends Here   */
+
+
+/*  Portfolio Section Starts Here */
+
+.cls-sec-portfolio{
+
+}
+
+.cls-sec-portfolio h2{
+    font-size: 40px;
+    color: #2d3950;
+}
+
+.cls-sec-portfolio p{
+    font-size: 15px;
+    color: #909090;
+}
+
+
+/*  Portfolio Section Ends Here*/
+
+
+/* Contact Us Section Starts Here */
+
+.contact{
+
+}
+
+
+.contact .contact-background{
+    background: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*height: 500px;*/
+}
+
+.contact .contact-overlay{
+    background: #0000007a;
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+    width: 100%;
+    /*height: 500px;*/
+}
+
+.contact h2{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.contact p{
+    font-size: 15px;
+    color: #999999;
+}
+
+.contact .custom-text{
+    background: transparent;
+    outline: none;
+    border: 1px solid #999999;
+}
+
+.contact .custom-textarea{
+    margin-top: -3%;
+    height: 120px;
+    resize: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid #999999;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+    color: #999;
+    font-size: 15px;
+}
+
+.contact .cls-contact-btn{
+    background: transparent;
+    padding: 2% 12%;
+}
+
+/* Contact Us Section Ends Here */
+
+.cls-footer h3{
+    font-size: 15px;
+    color: #999999;
+}
+
+.cls-footer ul{
+    list-style: none;
+}
+
+.cls-footer ul li{
+    display: inline-block;
+}
+
+.cls-footer ul li a{
+    background: #15a4fa;
+    color: white;
+    padding: 8px 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+
+.cls-footer i{
+    
+}
+
+/* Footer Section Starts Here */
+
+
+
+/* Footer Section Ends Here */
+
+
